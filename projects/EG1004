@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="margin text-center"> Rapid Assembly Design </h1>
+            <p> Control back in the hands of the people</p>
+            <p>In a rapidly progressing and innovation-focused world, there is a constant push for revolutionary new ideas. Now the National Academy of Engineers (NAE) and the NYU Tandon School of Engineering are seeking proposals to develop unique and intriguing technology that will promote advancement and improve quality of life. The NAE wants to see how the new generation of engineers will address the NAE's Engineering Grand Challenges and technological problems the world faces. The grantors want to reward innovative and exceptional designs and prototypes.
+
+Respondents are tasked with identifying a problem that needs to be solved. The response must include a proof of concept solution in the form of a working prototype that will be showcased to professors, teaching assistants, and other stakeholders. The prototype must show creativity, promise, and innovative excellence. The goal of this endeavor is to address an engineering problem that can be solved. Respondents have the freedom to propose any idea that has merit, be it a new technology or an existing technology that can be improved or adapted to a new use. Proposals that are selected will move forward and produce a prototype by the end of the semester. </p>
+            <a href="https://nyu0-my.sharepoint.com/:p:/g/personal/wdn2012_nyu_edu/EdbO3fqbd4tJmnZA1XnZ2bMBgd1L5cZ4BqwKUs_CUOdeQA?e=WoS5qG">Link to the presentation </a><br>
+          
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a>-->
+            <!--EXAMPLE OF GITHUB LINK-->
+            <!--<a href="http://github.com/yourUserName/yourRepoName">Github</a>-->
+
+            <img src="../img/box_rad.PNG" class="img-fluid project-img">
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://engineering.nyu.edu" target="_blank"><../img/NYU_logo.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
